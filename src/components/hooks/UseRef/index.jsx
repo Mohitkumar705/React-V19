@@ -15,7 +15,7 @@ const UseRef = () => {
   };
 
   return (
-    <form onSubmit={handleFormSubmit}>
+    <form onSubmit={handleFormSubmit}> 
       <input type="text" id="username" ref={username} />
       <br />
       <input type="text" id="password" ref={password} />
@@ -26,3 +26,4 @@ const UseRef = () => {
 };
 
 export default UseRef;
+  
