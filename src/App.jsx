@@ -3,7 +3,8 @@
 // import Netfliex from "./components/Netfliex";
 
 // import UseRef from "./components/hooks/UseRef";
-import ForwardRefs from "./components/hooks/UseRef/UseRefe";
+import { UseId } from "./components/hooks/USEID";
+// import ForwardRefs from "./components/hooks/UseRef/UseRefe";
 
 // import { ContactForm } from "./components/hooks/ContactForm";
 // import Chalange from "./components/hooks/UseEffect/Chalange";
@@ -43,7 +44,8 @@ const App = () => {
           {/* <HowNotToFetchApi/> */}
           {/* <User/> */}
           {/* <UseRef/> */}
-          <ForwardRefs/>
+          {/* <ForwardRefs/> */}
+          <UseId/>
     
     </>
   )
