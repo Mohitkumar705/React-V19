@@ -3,7 +3,8 @@
 // import Netfliex from "./components/Netfliex";
 
 // import UseRef from "./components/hooks/UseRef";
-import { UseId } from "./components/hooks/USEID";
+import Parent from "./components/hooks/PropDriling";
+// import { UseId } from "./components/hooks/USEID";
 // import ForwardRefs from "./components/hooks/UseRef/UseRefe";
 
 // import { ContactForm } from "./components/hooks/ContactForm";
@@ -45,7 +46,8 @@ const App = () => {
           {/* <User/> */}
           {/* <UseRef/> */}
           {/* <ForwardRefs/> */}
-          <UseId/>
+          {/* <UseId/> */}
+          <Parent/>
     
     </>
   )
