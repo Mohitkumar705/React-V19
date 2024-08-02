@@ -3,7 +3,9 @@
 // import Netfliex from "./components/Netfliex";
 
 // import UseRef from "./components/hooks/UseRef";
-import Parent from "./components/hooks/PropDriling";
+import { Home } from "./components/hooks/ContextApi/Home";
+import { BioProvider } from './components/hooks/ContextApi/index';
+// import Parent from "./components/hooks/PropDriling";
 // import { UseId } from "./components/hooks/USEID";
 // import ForwardRefs from "./components/hooks/UseRef/UseRefe";
 
@@ -47,7 +49,10 @@ const App = () => {
           {/* <UseRef/> */}
           {/* <ForwardRefs/> */}
           {/* <UseId/> */}
-          <Parent/>
+          {/* <Parent/> */}
+          <BioProvider>
+            <Home />
+          </BioProvider>
     
     </>
   )
